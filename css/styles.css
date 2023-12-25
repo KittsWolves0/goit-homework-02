@@ -1,0 +1,15 @@
+body {
+    background-color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    
+}
