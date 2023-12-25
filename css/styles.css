@@ -13,15 +13,22 @@ body {
     font-weight: 700;
     color: #FFF;
     font-size: 56px;
-    line-height: 1.071;
+    line-height: 1.07;
     letter-spacing: 1.12px;
+    text-align: center;
 }
 
 .about .title,
 .members .title,
 .portfolio .title {
+    font-size: 36px;
     font-weight: 700;
     letter-spacing: 0.72px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
 }
 
 .about-title,
@@ -89,9 +96,13 @@ body {
     background-color: #2E2F42;
 }
 
-.hero button {
+.hero .button {
     background-color: #4D5AE5;
     color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     border: 0px;
     font-weight: 500;
     letter-spacing: 0.64px;
@@ -100,6 +111,14 @@ body {
 .hero button:hover, .hero button:focus {
     background-color: #404BBF;
     cursor: pointer;
+}
+
+.members {
+    background-color: #F4F4FD;
+}
+
+.members li {
+    background-color: #FFF;
 }
 
 .portfolio li {
