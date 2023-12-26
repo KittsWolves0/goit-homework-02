@@ -18,7 +18,13 @@ body {
     text-align: center;
 }
 
-.about .title,
+.about .title {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
 .members .title,
 .portfolio .title {
     font-size: 36px;
@@ -35,7 +41,11 @@ body {
 .members-title,
 .portfolio-title{
     font-weight: 500;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 1.2;
 }
 
 .header ul {
@@ -119,6 +129,10 @@ body {
 
 .members li {
     background-color: #FFF;
+}
+
+.members .text {
+    font-size: 16px;
 }
 
 .portfolio li {
