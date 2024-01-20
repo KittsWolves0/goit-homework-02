@@ -1,6 +1,7 @@
 body {
 font-family: Roboto, sans-serif;
 background-color: #fff;
+color: #434455
 }
 
 a {
@@ -16,8 +17,8 @@ ul {
 .header {}
 
 .header-logo {
-    color: #2E2F42;
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -26,7 +27,7 @@ ul {
 }
 
 .accent {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
 .header-list {}
@@ -41,7 +42,14 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.header-address {}
+.header-link:hover, 
+.header-link:focus {
+    color: #404BBF;
+}
+
+.header-address {
+    font-style: normal;
+}
 
 .header-address-list {}
 
@@ -51,7 +59,11 @@ ul {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+    color: #404BBF;
 }
 
 /* ================================ */
@@ -79,6 +91,13 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+background-color: #404BBF;
 }
 
 /* ================================ */
@@ -90,20 +109,11 @@ ul {
 
 .about {}
 
-.about-title {}
+.about-title {
+    line-height: 1.2;
+}
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
 }
 
 .about-list {}
@@ -229,7 +239,7 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
 }
 
 .footer-accent {
