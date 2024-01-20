@@ -109,9 +109,7 @@ background-color: #404BBF;
 
 .about {}
 
-.about-title {
-    line-height: 1.2;
-}
+.about-title {}
 
 .visually-hidden {
 }
@@ -123,7 +121,7 @@ background-color: #404BBF;
 .about-subtitle {
     color: #2E2F42;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     font-size: 20px;
 }
@@ -158,7 +156,9 @@ background-color: #404BBF;
 
 .members-list {}
 
-.members-list-item {}
+.members-list-item {
+    background-color: #FFF;
+}
 
 .members-img {}
 
